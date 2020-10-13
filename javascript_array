@@ -1,0 +1,11 @@
+function Matrix(rows, columns) {
+  var jaggedarry = new Array (rows);
+  for (var i = 0; i < rows; i += 1) {
+    jaggedarry[i] = new Array(columns);
+  }  
+  return jaggedarry;
+
+}
+
+console.log(Matrix(3,3))
+console.log(Matrix(4,5))
